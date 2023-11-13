@@ -1,0 +1,113 @@
+.Interface
+{
+    width: 420px;
+    height: 525px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding-top: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Title
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: POPPINS;
+    font-size: 30px
+}
+
+label 
+{
+    font-family: POPPINS;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Inner-Block 
+{
+    padding-left: 15px;
+}
+
+.Username
+{
+    width: 350px;
+    height: 30px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #fff;
+    margin-top: 10px;
+    font-family: POPPINS;
+}
+
+#password
+{
+    width: 350px;
+    height: 30px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #fff;
+    margin-top: 10px;
+    font-family: POPPINS;
+}
+
+#showPassword
+{
+    width: 25px;
+    height: 25px;
+    border: 3px solid #000000;
+    margin-top: 20px;
+}
+
+h3
+{
+    padding-left: 5px;
+    font-weight: 300;
+    font-family: POPPINS;
+}
+
+.Container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#submit
+{
+    width: 100px;
+    height: 30px;
+    background-color:  rgba(223, 112, 21, 0.889);
+    font-weight: 500;
+    font-family: POPPINS;
+    border-radius: 70px;
+    border-color: rgba(223, 112, 21, 0.889);
+    border: rgba(223, 112, 21, 0.889);
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer; 
+    font-size: 15px;
+    margin-bottom: 10px;
+  
+}
+
+
+#submit:hover {
+    background-color: rgba(253, 152, 41, 2.889); 
+    transform: scale(1.1);
+  }
+
+  h1 
+  {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: POPPINS;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
